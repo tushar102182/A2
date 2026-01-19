@@ -26,6 +26,11 @@ nav{
     justify-content: center;
    
 }
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(100deg);}
+}
 .ex-bold{
     font-weight: 800;
 }
@@ -137,9 +142,13 @@ max-width: 120px;
 width: 100%;
 max-height: 175px;
 height: auto;
+
+animation: spin .5s ease-in-out .1s infinite alternate ;
+
     
 
 }
+
 .img-contianer{
    
     display: inline-block;
@@ -238,17 +247,26 @@ color: #00FF88;
 .s2-c2{
     max-width: 1200px;
 }
+.card-clr:hover{
+    cursor: pointer;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    cursor: pointer;
+}
+
 .card{
     width: 1200px;
     display: flex;
     justify-content: space-between;
     text-align: center;
+    
 }
 .card h3{
     font-size: 3rem;
     font-weight: 900;
     color: #00FF88;
     margin-bottom: 16px;
+   
 
 }
 /* Section 03 */
@@ -403,6 +421,9 @@ display: flex;
 gap:8px;
 
 }
+.log1,.log2,.log3,.log4:hover{
+    cursor: pointer;
+}
 .log1,.log2,.log3,.log4{
     display: flex;
     align-items: center;
@@ -435,8 +456,18 @@ footer{
 .f-flex{
     display: flex;
     gap:10px;
+     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .f-logo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 display: flex;
     gap:40px;
+}
+.f-logo1,.f-logo2,.f-logo3,.f-logo4{
+    display: flex;
+    gap: 10px;
 }
