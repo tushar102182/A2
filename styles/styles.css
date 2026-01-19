@@ -3,6 +3,7 @@
 *{
     margin: 0px ;
     padding: 0;
+    
 }
 body{
    margin:0px;
@@ -12,6 +13,7 @@ body{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   color: white;
+  background-color: #1A0B2E;
 
 }
 nav{
@@ -316,4 +318,125 @@ color: #00FF88;
     border:none;
     border-radius: 40px;
 
+}
+/* <!-- Section 04 --> */
+.s4-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.s4-h{
+    max-width: 1200px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+.s4-c1 {
+    max-width:1200px;
+    display: flex;
+    gap:30px;
+}
+.common-card{
+    max-width: 380px;
+    background-color: #250D44; 
+    border-radius: 24px 24px 24px 24px;
+    
+    overflow: hidden;
+
+}
+.common-card h3{
+margin: 24px 24px 12px 24px;
+height: 60px;
+}
+.common-card p{
+    margin-left: 24px;
+}
+.timer{
+    display: flex;
+    margin: 12px auto 24px 24px;
+}
+.timer-text{
+    color:#00FF88;
+}
+.extra{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.ex-container{
+    background-color: #250D44; 
+    display: flex;
+    max-width: 1200px;
+    max-height: 280px;
+    margin-bottom: 120px;
+    border-radius: 24px;
+    
+}
+.ex-head{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top:120px;
+    margin-bottom: 40px;
+}
+.ex-img{
+    max-width: 200px;
+    max-height: 200px;
+    width: 100%;
+    margin:40px 24px 40px 40px;
+}
+.ex-info h3{
+    font-size: 2rem;
+    font-family:bold;
+    margin-bottom: 16px;
+}
+.ex-info p{
+ margin-bottom: 16px;
+}
+.ex-info{
+    max-width: 900px;
+    margin: 48px 40px 48px 0px;
+}
+.ex-logo{
+display: flex;
+gap:8px;
+
+}
+.log1,.log2,.log3,.log4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #533C72;
+box-sizing: border-box;
+width: 40px;
+height: 40px;
+border-radius: 50%.;
+}
+/* Footer */
+footer{
+    background-image: url('./assets/footer-bg.png');
+    height: 412px;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    justify-content: center;
+}
+.f-container{
+    text-align: center;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+   
+}
+.f-flex{
+    display: flex;
+    gap:10px;
+}
+.f-logo{
+display: flex;
+    gap:40px;
 }
