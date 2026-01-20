@@ -664,3 +664,24 @@ min-height: 420px;
     margin-top: 20px;
 }
 }
+@media screen and (min-width:992px){
+    nav{
+        max-width: 800px;
+    }
+    .s3{
+        padding:0 24px;
+        padding-bottom: 24px;
+    }
+    .s4{
+        padding: 24px;
+    }
+    .s4-c1 {
+    max-width:1200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+}
