@@ -1,12 +1,12 @@
 
 /* common classes */
 *{
-    margin: 0px auto;
+    margin: 0px ;
     padding: 0;
     
 }
 body{
-   margin:0px;
+   margin:0px auto;
    
    max-width: 1600px;
 
@@ -150,7 +150,7 @@ width: 100%;
 max-height: 175px;
 height: auto;
 
-animation: spin .5s ease-in-out .1s infinite alternate ;
+animation: spin 2.5s ease-in-out .1s infinite alternate ;
 
     
 
@@ -502,13 +502,14 @@ display: flex;
 }
 .hamberg{
     display: inline;
-    margin-right: 30px;
+    margin-right: 1px;
     padding-top: 20px;
     margin-top: 20px;
 }
 nav{
     display: flex;
-    
+    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 .nav-container{
@@ -554,7 +555,7 @@ max-width: 80px;
 width: 100%;
 max-height: 80px;
 /* height: auto; */
-
+animation: none;
 /* animation: spin .5s ease-in-out .1s infinite alternate ; */
 
 }
@@ -599,11 +600,14 @@ max-height: 80px;
     font-size: 2rem;
 }
 .s3-card{
-   margin: 0 auto;
+   margin-left: 24px;
    
     display:flex;
     flex-direction: column;
     gap:16px;
+}
+.s4-c1{
+    margin-left: 24px;
 }
 .ex-container{
     flex-direction: column;
@@ -625,15 +629,17 @@ footer{
    
 }
 .f-container{
-      background-size: contain;
+      
     padding: 56px 16px;
-   
+   background-color: #250D44;
 
-    background-position: center;
-  gap:4px;
+    background-image: none;
+  gap:14px;
  
     height: 100%;
 width: 100%;
+
+   
     
 }
 footer{
@@ -642,14 +648,18 @@ min-height: 420px;
 .f-logo{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   
     gap:16px;
+    height: 45px;
 
 }
 .f-h{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 20px;
 }
 .f3{
+    font-size: 0.75rem;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 }
