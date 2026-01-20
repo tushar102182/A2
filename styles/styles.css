@@ -664,7 +664,7 @@ min-height: 420px;
     margin-top: 20px;
 }
 }
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) and (max-width:1200px){
     nav{
         max-width: 800px;
     }
